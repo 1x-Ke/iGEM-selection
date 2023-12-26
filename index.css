@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-image: url(2.背景.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 170px;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  overflow: hidden;
+}
+.navimg{
+  font-size: 0;
+}
+header .nav li{
+  font-size: 25px;
+  border-right: 1px solid;
+  display: inline-block;
+  margin-left: 3.6%;
+}
+header .navimg li{
+  display: inline-block;
+}
+header .navimg li:first-child{
+  margin-left: 30%;
+}
+header .navimg li img{
+  height: 140px;
+  width: 140px;
+}
+header .nav li a{
+  text-decoration: none;
+  color: white;
+}
+header .nav li{
+  border: none;
+}
+.nav{
+  display: block;
+}
+.nav ul:first-child{
+  margin-left: 2%;
+}
+.nav ul li a:hover{
+  color:red;
+}
+.wrapper1 img{
+  width: 100%;
+}
+.foot img{
+  width: 100%;
+}
+.main img{
+  width: 100%;
+}
+.main{
+  font-size: 0;
+}
+.wrapper1{
+  font-size: 0;
+}
+.foot{
+  font-size: 0;
+}
+.wrapper2{
+  font-size: 0;
+}
+.wrapper2 img{
+  width: 100%;
+}
+.gif
+{
+    position:absolute;
+    left: 10%;
+    top: 10%;
+    height:500vh;
+    width:500vw;
+    z-index:1;
+    align-items: center;
+    justify-content: center;
+}
+.gif>img/*设置gif下的img元素样式*/
+{
+    height:20%;
+    width:20%;
+}
